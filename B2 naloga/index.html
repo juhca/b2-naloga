@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>B2 naloga - Tomas Štefe</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="skripta.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Naloga za B2 - Tomas Štefe</h1>
+
+        <h2>Vse osebe</h2>
+        <h4>Število najdenih oseb je: 
+            <span id="stOseb">0</span>
+        </h4>
+        
+        <table id="osebe" border="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Ime</th>
+                    <th>Starost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr></tr>
+            </tbody>
+        </table>
+
+        <form class="forma">
+            Ime osebe:<br />
+            <input type="text" name="imeOsebe" placeholder="Ime" /><br />
+            Starost osebe:<br />
+            <input type="number" name="starostOsebe" placeholder="Starost" min="1"/><br />
+            <br />
+            <input type="submit" value="Lokalno" class="lokalno" />
+            <input type="submit" value="Na strežnik" class="streznik" />
+        </form>
+    </div>
+</body>
+</html>
